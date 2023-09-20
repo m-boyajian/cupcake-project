@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupcakes</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>See Our Delicious Cupcakes!</h1>
+
+<ul id="cupcakes-list">
+</ul>
+
+<h1>Add Your Own!</h1>
+
+<form id="new-cupcake-form">
+  <div>
+    <label for="cupcake-flavor">Flavor</label>
+    <input name="flavor">
+  </div>
+
+  <div>
+    <label for="cupcake-size">Size</label>
+    <input name="size">
+  </div>
+
+  <div>
+    <label for="cupcake-rating">Rating</label>
+    <input name="rating" type="number">
+  </div>
+
+  <div>
+    <label for="cupcake-image">Image</label>
+    <input name="image">
+  </div>
+
+  <button>Add</button>
+
+</form>
+
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="/static/cupcakes.js"></script>
+</body>
+
+</html>
